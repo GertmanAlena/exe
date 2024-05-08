@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HomeWork />
+    <AuthenticationComponent />
+    <CardComponent />
+    <MortgageCalculator />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AuthenticationComponent from './components/AuthenticationComponent.vue'
+import CardComponent from './components/CardComponent.vue'
+import MortgageCalculator from './components/MortgageCalculator.vue'
+import HomeWork from './components/HomeWork.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AuthenticationComponent,
+    CardComponent,
+    MortgageCalculator,
+    HomeWork
   }
 }
 </script>
